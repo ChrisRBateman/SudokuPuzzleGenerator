@@ -42,5 +42,7 @@ Then run (for example):
 	> java SudokuGenerator 5 38 output.txt
 
 The first parameter is the number of puzzles to generate.
+
 The second parameter is the number of visible cells per puzzle.	
+
 The third parameter is the file the application will write the results to.
