@@ -6,8 +6,8 @@ Java Sudoku Puzzle Generator
 Generates a series of standard Sudoku puzzles and writes them to a file. Each puzzle has 
 the following format:
 
-    >..2.847...8...7.3.713.9.......5...8124.8....7..8...4.29..42...3....13.94.64.....8
-    >592384716486157239713296845679542381245831967138769452951428673827613594364975128
+    > ..2.847...8...7.3.713.9.......5...8124.8....7..8...4.29..42...3....13.94.64.....8
+    > 592384716486157239713296845679542381245831967138769452951428673827613594364975128
 
 The first line is the partial grid and the second line is the solution.
 The solution is defined by the following rules:
