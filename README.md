@@ -1,13 +1,15 @@
 SudokuPuzzleGenerator
 =====================
 
-Java Sudoku Puzzle Generator
+#### Java Sudoku Puzzle Generator
 
 Generates a series of standard Sudoku puzzles and writes them to a file. Each puzzle has 
 the following format:
 
-    > ..2.847...8...7.3.713.9.......5...8124.8....7..8...4.29..42...3....13.94.64.....8
-    > 592384716486157239713296845679542381245831967138769452951428673827613594364975128
+```
+..2.847...8...7.3.713.9.......5...8124.8....7..8...4.29..42...3....13.94.64.....8
+592384716486157239713296845679542381245831967138769452951428673827613594364975128
+```
 
 The first line is the partial grid and the second line is the solution.
 The solution is defined by the following rules:
@@ -25,7 +27,7 @@ and
 
 https://github.com/rharriso/sudoku-gen-cpp
 
-For more information about Sudoku in general see:
+For general information about Sudoku see:
 
 https://en.wikipedia.org/wiki/Sudoku
    
@@ -35,11 +37,15 @@ Install JDK SE 8 or later http://www.oracle.com/technetwork/java/javase/download
 
 Run from a command prompt to build:
 
-	> javac SudokuGenerator.java
+```
+$ javac SudokuGenerator.java
+```
 	
 Then run (for example):
 
-	> java SudokuGenerator 5 38 output.txt
+```
+$ java SudokuGenerator 5 38 output.txt
+```
 
 The first parameter is the number of puzzles to generate.
 
